@@ -1,0 +1,18 @@
+; $Id: seven.info,v 1.4 2010/06/22 12:44:48 mcrittenden Exp $
+
+name = Seven
+description = A simple one-column, tableless, fluid width administration theme.
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = reset.css
+stylesheets[all][] = style.css
+
+regions[content] = Content
+
+; Information added by drupal.org packaging script on 2010-06-22
+version = "6.x-1.0-beta10"
+core = "6.x"
+project = "seven"
+datestamp = "1277211013"
+
